@@ -6,7 +6,12 @@ function Header({ search, setSearch, getData }) {
         <h2>WhoWatched?</h2>
       </div>
       <div className="searchBar">
-        <input type="text" placeholder="Search for movies..." />
+        <input
+          type="text"
+          placeholder="Search for movies..."
+          value={search}
+          onChange={(event) => setSearch(event.target.value)}
+        />
         <button onClick={getData}>Search</button>
       </div>
 
