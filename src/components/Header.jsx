@@ -1,5 +1,5 @@
 import "./css/Header.css";
-function Header() {
+function Header({ search, setSearch, getData }) {
   return (
     <nav className="navbar">
       <div className="logo">
@@ -7,12 +7,10 @@ function Header() {
       </div>
       <div className="searchBar">
         <input type="text" placeholder="Search for movies..." />
-        <button>Search</button>
+        <button onClick={getData}>Search</button>
       </div>
 
-      <div className="userProfile">
-        <button>User</button>
-      </div>
+      <div className="userProfile"></div>
     </nav>
   );
 }
