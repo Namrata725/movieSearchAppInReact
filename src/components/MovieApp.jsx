@@ -23,7 +23,7 @@ function MovieApp() {
   return (
     <div>
       <Header search={search} setSearch={setSearch} getData={getData} />
-      <CategoryBtn />
+      <CategoryBtn setSearch={setSearch} getData={getData} />
     </div>
   );
 }
