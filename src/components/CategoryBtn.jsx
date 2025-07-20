@@ -29,9 +29,6 @@ function CategoryBtn({ setSearch, getData }) {
       <button onClick={userInput} value={"documentary"}>
         Documentary
       </button>
-      <button onClick={userInput} value={"animation"}>
-        Animation
-      </button>
     </div>
   );
 }
