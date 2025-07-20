@@ -1,0 +1,87 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0c1541;
+  padding: 1rem 2rem;
+  color: white;
+  
+}
+
+.logo h2 {
+  color: #798be6;
+  margin: 0;
+}
+
+.searchBar {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  
+}
+
+.searchBar input {
+  padding: 0.5rem;
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  background-color: #1a224d; 
+  border: #798be6;
+  
+}
+
+.searchBar input::placeholder {
+  color: #aaa;
+}
+
+.searchBar button {
+
+  padding: 0.5rem 1rem;
+  background-color: #798be6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.searchBar button:hover {
+  background-color: #6676d6;
+}
+
+.userProfile button {
+  padding: 0.5rem 1rem;
+  background-color: #1a224d;
+  color: white;
+  border: 1px solid #798be6;
+  cursor: pointer;
+}
+
+.userProfile button:hover {
+  background-color: #798be6;
+  color: white;
+}
+
+.categoryButtons {
+  background-color: #0c1541; 
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.categoryButtons button {
+  padding: 0.5rem 1rem;
+  background-color: #1a224d;
+  color: white;
+  border: 1px solid #798be6;
+  
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.categoryButtons button:hover {
+  background-color: #798be6;
+  color: white;
+}

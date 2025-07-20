@@ -1,7 +1,8 @@
+import MovieApp from "./components/MovieApp";
 function App() {
   return (
     <div>
-      <h1>Hello, World!</h1>
+      <MovieApp />
     </div>
   );
 }
